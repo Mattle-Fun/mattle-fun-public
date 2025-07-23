@@ -1,10 +1,11 @@
 # Mattle.fun project
-
+Listed on Solana dApp Store.
 ## Description
-Mattle.fun is a hybrid platform where your crypto trading performance boosts your in-game power. Trade coins, level up your character, and survive in a fast-paced, skill-based arena game.
+Mattle.fun is an integrated ecosystem where your on-chain activity fuels your in-game strength. Trade smart, start strong, and survive longer.
+
 ## Links
-- Pitch deck video: https://www.youtube.com/watch?v=ztYAxkNKw-s
-- Pitch deck (file): https://www.figma.com/deck/JjUtX0qrHD5aLgQzp4gpPu/-Mattle.fun----Pitch-Deck
+- Pitch deck video **: https://www.youtube.com/watch?v=ztYAxkNKw-s
+- Pitch deck (file) **: https://www.figma.com/deck/JjUtX0qrHD5aLgQzp4gpPu/-Mattle.fun----Pitch-Deck
 - Technical video: https://www.youtube.com/watch?v=AbG8ta7JxhY
 - Website: https://mattle.fun/
 - X: https://x.com/mattlefun
