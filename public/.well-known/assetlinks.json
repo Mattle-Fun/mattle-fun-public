@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "fun.mattle.twa",
+        "sha256_cert_fingerprints": ["B1:78:23:DA:29:EE:4B:B3:67:09:2E:81:E6:DF:EC:6F:E3:3A:7A:2F:84:B9:73:01:8E:61:BC:4A:E5:18:ED:37"]
+      }
+    }]

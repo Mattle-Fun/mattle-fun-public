@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+    <path d="M8.66667 0H23.3333V2H28V4H30V8H32V23.3333H30V27.3333H28V29.3333H23.3333V32H8.66667V29.3334H4V27.3334H2V23.3334H0V8.00009H2V4.00008H4V2.00008H8.66667V0Z" fill="url(#pattern0_6075_6170)"/>
+    <defs>
+        <pattern id="pattern0_6075_6170" patternContentUnits="objectBoundingBox" width="1" height="1">
+            <use href="#image0_6075_6170" transform="scale(0.005)"/>
+        </pattern>
+        <image id="image0_6075_6170" width="200" height="200" preserveAspectRatio="none" href="https://i.imgur.com/pxxdA4d.jpeg" />
+    </defs>
+</svg>

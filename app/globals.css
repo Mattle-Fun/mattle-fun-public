@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #F0E9CF;
+  --navbar-total-height: 94px;
+  --color-text-subtle: rgba(240, 233, 207, 0.48);
+  --color-text-normal: #F0E9CF;
+  --color-text-disabled: rgba(240, 233, 207, 0.24);
+  --color-text-gentle: rgba(240, 233, 207, 0.72);
+  --color-text-brand: #F1C315;
+  --color-text-hover: #F1C315;
+  --color-text-brand-contrast: #BC88FF;
+  --color-text-inverse-nomal: rgba(16, 13, 8, 0.86);
+  --color-border-subtle: rgba(240, 233, 207, 0.08);
+}
+
+div::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+div::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+div::-webkit-scrollbar-thumb {
+  background: #3B382F;
+  border-radius: 10px;
+  border: 2px solid #3B382F;
+}
+
+div::-webkit-scrollbar-thumb:hover {
+  background: #8b8b8b;
+  border-color: #8b8b8b;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  position: relative;
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-ms);
+  background: linear-gradient(180deg, #100D08 75%,  #282001 100%);
+  width: 100vw;
+}
+body::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background-image: url('/images/sub-background.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top center;
+  opacity: 5%;
+  pointer-events: none;
+}
+.main-body {
+  width: 100%;
+  height: calc(100dvh - var(--navbar-total-height));
+}
+#pixel-background-id {
+  top: 0;
+  right: 0;
+  width: 100vw;
+  position: absolute;
+  background-image: url('/images/main-background.png');
+  background-repeat: repeat;
+  z-index: 1000000;
+  pointer-events: none;
+  opacity: 30%;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.retro-button {
+  border-width: 4px;
+  border-image-source: url("data:image/svg+xml,%3Csvg width='76' height='48' viewBox='0 0 76 48' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect y='12' width='3' height='24' fill='%23F1C315'/%3E%3Crect x='3' y='6' width='5' height='36' fill='%23F1C315'/%3E%3Crect x='8' y='3' width='6' height='42' fill='%23F1C315'/%3E%3Crect width='48' height='48' transform='translate(14)' fill='%23F1C315'/%3E%3Crect width='3' height='24' transform='matrix(-1 0 0 1 76 12)' fill='%23F1C315'/%3E%3Crect width='5' height='36' transform='matrix(-1 0 0 1 73 6)' fill='%23F1C315'/%3E%3Crect width='6' height='42' transform='matrix(-1 0 0 1 68 3)' fill='%23F1C315'/%3E%3C/svg%3E%0A");
+  border-image-slice: 16 fill;
+  border-image-width: 4;
+  border-image-outset: 0;
+  border-image-repeat: stretch;
+  /*background: #F0E9CF;*/
+
+  margin: 4px;
+}
+
+.retro-button:hover {
+  /*transform: translate(2px, 2px);*/
+}
+.Container-sc-c3403117-0.loQzye {
+  background-color: #3E3A2D !important;
+  color: #fde68a !important;
+}
+
+.nav-dropdown {
+  ul.ant-dropdown-menu {
+    background-color: #1d1b15 !important;
+  }
+  .ant-dropdown-menu-item {
+    color: #F0E9CF !important;
+    font-family: var(--font-ms) !important;
+  }
+  .ant-dropdown-menu-item-disabled:hover {
+    color: #F0E9CF !important;
+    background-color: #1d1b15 !important;
+  }
+}
+
+.ant-notification-notice-wrapper {
+  border-image-source: url("data:image/svg+xml,%3Csvg width='21' height='21' viewBox='0 0 21 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6 0H15V3H18V6H21V15H18V18H15V21H6V18H3V15H0V6H3V3H6V0Z' fill='%23F0E9CF'/%3E%3C/svg%3E%0A");
+  border-style: solid;
+  border-width: 8px;
+  border-image-slice: 8 fill;
+  border-image-repeat: stretch;
+  background: transparent !important;
+  border-radius: 0 !important;
+  font-family: var(--font-ms) !important;
+}
+.ant-notification-notice {
+  padding: 6px 8px 4px 8px !important;
+}
+.ant-notification-notice-success {
+  .ant-notification-notice-message {
+    color: #479B00 !important;
+
+  }
+}
+.ant-notification-notice-error{
+  .ant-notification-notice-message {
+    color: #CA4F02 !important;
+  }
+}
+.ant-notification-notice-message {
+  color: #100D08DB !important;
+  font-size: 16px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.ant-notification-notice-description {
+  font-size: 12px !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  color: #100D0866 !important;
+}
+
+.ant-notification-notice-close {
+  top: 5px !important;
+  inset-inline-end: 10px !important;
+}
