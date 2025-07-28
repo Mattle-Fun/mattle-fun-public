@@ -7,7 +7,6 @@ Mattle.fun is an integrated ecosystem where your on-chain activity fuels your in
 - Pitch video: https://www.youtube.com/watch?v=-FcdLaBRSII
 - Demo video: https://www.youtube.com/watch?v=VhRhU0rXKFw
 - Pitch deck: https://drive.google.com/file/d/1XjUtvEKEyTLP2UpPVTBLx5cxFrVdkCaT/view?usp=sharing
-- Technical video: https://www.youtube.com/watch?v=AbG8ta7JxhY
 - Website: https://mattle.fun/
 - X: https://x.com/mattlefun
 - Telegram: https://t.me/mattlefun
