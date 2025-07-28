@@ -1,5 +1,5 @@
 # Mattle.fun project
-Listed on Solana dApp Store.
+Listed on Solana dApp Store.  
 Website: https://mattle.fun/
 ## Description
 Mattle.fun is an integrated ecosystem where your on-chain activity fuels your in-game strength. Trade smart, start strong, and survive longer.
