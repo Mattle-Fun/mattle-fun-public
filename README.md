@@ -4,7 +4,8 @@ Listed on Solana dApp Store.
 Mattle.fun is an integrated ecosystem where your on-chain activity fuels your in-game strength. Trade smart, start strong, and survive longer.
 
 ## Links
-- Pitch deck video **: https://www.youtube.com/watch?v=ztYAxkNKw-s
+- Pitch video: https://www.youtube.com/watch?v=-FcdLaBRSII
+- Demo video: https://www.youtube.com/watch?v=VhRhU0rXKFw
 - Pitch deck (file) **: https://www.figma.com/deck/JjUtX0qrHD5aLgQzp4gpPu/-Mattle.fun----Pitch-Deck
 - Technical video: https://www.youtube.com/watch?v=AbG8ta7JxhY
 - Website: https://mattle.fun/
