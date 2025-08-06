@@ -1,6 +1,6 @@
 # Mattle.fun project
 Listed on Solana dApp Store.  
-Website: https://mattle.fun/
+Website: https://mattle.fun/  
 APK Version: https://bit.ly/mattle-run-apk
 
 ## Description
